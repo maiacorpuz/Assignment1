@@ -1,4 +1,6 @@
 # Assignment1
+This is my assignment
+```
   cd ~
   /bin/bash
   perl -MNet::FTP -e \
@@ -21,3 +23,6 @@ wordcloud_cli --text pubmed.090419.v1.txt --imagefile wordcloud.png
 rsync -avz maiacorpuz@trgn.usc.edu:~/wordcloud.png ~/Desktop (local .bash_profile)
 esearch -db pubmed -query "rna crosslinking" | efetch -format abstract > pubmed.090419.v1.txt
 wordcloud_cli --text pubmed.090419.v1.txt --image wordcloud.png
+```
+## Usage
+`./wordcloud test`
